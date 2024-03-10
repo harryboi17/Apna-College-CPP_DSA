@@ -68,7 +68,7 @@ vector<vi> matrixExp(vector<vi> &a, int n){
 
 int main(){
 int n; cin>>n;
-vector<vi> a = {{1,1}, {1,0}};
+vector<vi> a = {{1,2,1}, {1,0,2}, {2,1,2}};
 vector<vi> ans = matrixExp(a,n);
 forr(i,0,ans.size()){
     forr(j,0,ans.size())
